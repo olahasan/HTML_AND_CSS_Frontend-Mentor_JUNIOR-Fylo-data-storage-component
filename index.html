@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="css/main.css" />
 
-  <title>Frontend Mentor | Fylo data storage component</title>
-  <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@400;700&family=Jomhuria&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@400;700&family=Jomhuria&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+  <body>
+    <img
+      loading="lazy"
+      class="maybe"
+      src="images/bg-desktop.png"
+      alt="bg-desktop icon"
+    />
 
-</head>
+    <div class="big-box">
+      <div class="container">
+        <div class="box-1">
+          <div class="text">
+            <img loading="lazy" src="images/logo.svg" alt="logo icon" />
+          </div>
 
-<body>
-  <img class="maybe" src="images/bg-desktop.png" alt="pic"/>
-
-  <div class="big-box">
-
-    <div class="container">
-
-      <div class="box-1">
-
-        <div class="text">
-          <img src="images/logo.svg" alt="pic" />
+          <ul>
+            <img
+              loading="lazy"
+              src="images/icon-document.svg"
+              alt="icon-document"
+            />
+            <img
+              loading="lazy"
+              src="images/icon-folder.svg"
+              alt="icon-folder"
+            />
+            <img
+              loading="lazy"
+              src="images/icon-upload.svg"
+              alt="icon-upload"
+            />
+          </ul>
         </div>
 
-        <ul>
-          <img src="images/icon-document.svg" alt="pic" />
-          <img src="images/icon-folder.svg" alt="pic" />
-          <img src="images/icon-upload.svg" alt="pic" />
-        </ul>
+        <div class="box-2">
+          <span class="one"><span class="ooo">185</span> GB Left </span>
+          <p>You’ve used <span class="o-o">815 GB</span> of your storage</p>
 
-      </div>
-
-      <div class="box-2">
-        <span class="one"><span class="ooo">185</span> GB Left </span>
-        <p>You’ve used <span class="o-o">815 GB</span> of your storage</p>
-
-        <div class="prog">
-          <span class="two" style="width: 75%" data-progress="75%">ola</span>
+          <div class="prog">
+            <span class="two" style="width: 75%" data-progress="75%">ola</span>
+          </div>
+          <ul>
+            <li>0 GB</li>
+            <li>1000 GB</li>
+          </ul>
         </div>
-        <ul>
-          <li>0 GB</li>
-          <li>1000 GB</li>
-        </ul>
       </div>
-
     </div>
-
-  </div>
-
-</body>
-
+  </body>
 </html>
